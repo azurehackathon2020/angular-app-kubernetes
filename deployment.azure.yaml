@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: ramanjisibbala/ramdockerrepo:ram.#{Build.BuildId}#
+        image: ramanjisibbala/kubernetes-ram-repo:ram.#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
