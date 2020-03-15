@@ -1,5 +1,5 @@
 # stage 1
-FROM ubuntu:latest
+FROM node:latest
 WORKDIR /app
 COPY . .
 RUN npm install
